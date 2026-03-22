@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+:root{
+    interpolate-size: allow-keywords;
+}
+body{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+details{
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+summary{
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    display: flex;
+    &::after{
+        transition: all 0.2s ease-in-out;
+        content: "+";
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        font-size: 30px;
+    }
+}
+details span{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+details[open] span{
+    background: #a0a0a0;
+    color: #000;
+}
+details[open] summary::after{
+    transform: rotate(45deg);
+}
+
+/** ВАЖНО ДЛЯ АНИМАЦИИ **/
+::details-content{
+    transition: all 0.3s ease-in-out;
+    height: 0;
+    overflow: clip;
+}
+[open]::details-content{
+    height: auto;
+}
+

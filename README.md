@@ -1,10 +1,11 @@
 # ChampionshipTraining
 
 Dropdown:
-https://github.com/user-attachments/assets/b6b41e65-45a0-4303-8246-1857e004db1c
+![2026-03-2213-26-17-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/36532aee-5dc2-4edd-b76d-710b6f2ee2fb)
 
 Burger menu:
-https://github.com/user-attachments/assets/62739a0d-441d-4bb0-8083-50a60d675068
+![2026-03-2213-27-52-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d2d6239f-d069-443b-a437-61c6fd4678d5)
 
 DragAndDrop:
-https://github.com/user-attachments/assets/64541066-4111-46cd-9f4f-13d6f4547e76
+![2026-03-2213-30-34-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/24b70bed-8334-42c3-a0ab-1492c144e6c2)
+
